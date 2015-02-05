@@ -1,0 +1,51 @@
+to_words:
+  ones:
+    0: 'zero'
+    1: jeden
+    9: dziewięć
+  teens:
+    10: dziesięć
+    11: jedenaście
+    19: dziewiętnaście
+    20: dwadzieścia
+    21: dwadzieścia jeden
+    80: osiemdziesiąt
+    90: dziewięćdziesiąt
+    99: dziewięćdziesiąt dziewięć
+  hundreds:
+    100: sto
+    101: sto jeden
+    111: sto jedenaście
+    120: sto dwadzieścia
+    121: sto dwadzieścia jeden
+    900: dziewięćset
+    909: dziewięćset dziewięć
+    919: dziewięćset dziewiętnaście
+    990: dziewięćset dziewięćdziesiąt
+    999: dziewięćset dziewięćdziesiąt dziewięć
+  thousands:
+    1000: tysiąc
+    1001: tysiąc jeden
+    2000: dwa tysiące
+    4000: cztery tysiące
+    5000: pięć tysięcy
+    11000: jedenaście tysięcy
+    21000: dwadzieścia jeden tysięcy
+    999000: dziewięćset dziewięćdziesiąt dziewięć tysięcy
+    999999: dziewięćset dziewięćdziesiąt dziewięć tysięcy dziewięćset dziewięćdziesiąt dziewięć
+  # millionens:
+  #   1000000: jeden milion
+  #   2000000: dwa miliony
+  #   4000000: cztery miliony
+  #   5000000: pięć milionów
+  #   999000000: dziewięćset dziewięćdziesiąt dziewięć milionów
+  #   999000999: dziewięćset dziewięćdziesiąt dziewięć milionów dziewięćset dziewięćdziesiąt dziewięć
+  #   999999000: dziewięćset dziewięćdziesiąt dziewięć milionów dziewięćset dziewięćdziesiąt dziewięć tysięcy
+  #   999999999: dziewięćset dziewięćdziesiąt dziewięć milionów dziewięćset dziewięćdziesiąt dziewięć tysięcy dziewięćset dziewięćdziesiąt dziewięć
+  # billions:
+  #   1174315110: jeden miliard sto siedemdziesiąt cztery milionów trzysta piętnaście tysięcy sto dziesięć
+  #   1174315119: jeden miliard sto siedemdziesiąt cztery milionów trzysta piętnaście tysięcy sto dziewiętnaście
+  #   15174315119: piętnaście miliardów sto siedemdziesiąt cztery milionów trzysta piętnaście tysięcy sto dziewiętnaście
+  #   35174315119: trzydzieści pięć miliardów sto siedemdziesiąt cztery milionów trzysta piętnaście tysięcy sto dziewiętnaście
+  #   935174315119: dziewięćset trzydzieści pięć miliardów sto siedemdziesiąt cztery milionów trzysta piętnaście tysięcy sto dziewiętnaście
+  #   2935174315119: dwa biliony dziewięćset trzydzieści pięć miliardów sto siedemdziesiąt cztery milionów trzysta piętnaście tysięcy sto dziewiętnaście

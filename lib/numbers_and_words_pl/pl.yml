@@ -1,0 +1,17 @@
+numbers:
+  ones: ['zero', jeden, dwa, trzy, cztery, pięć, sześć, siedem, osiem, dziewięć]
+  teens: [dziesięć, jedenaście, dwanaście, trzynaście, czternaście, piętnaście, szesnaście, siedemnaście, osiemnaście, dziewiętnaście]
+  tens: [zero, dziesięć, dwadzieścia, trzydzieści, czterdzieści, pięćdziesiąt, sześćdziesiąt, siedemdziesiąt, osiemdziesiąt, dziewięćdziesiąt]
+  hundreds: [sto, dwieście, trzysta, czterysta, pięćset, sześćset, siedemset, osiemset, dziewięćset]
+  thousands:
+    one: tysiąc
+    few: tysiące
+    many: tysięcy
+  millions:
+    one: milion
+    few: miliony
+    many: milionów
+  billions:
+    one: bilion
+    few: biliony
+    many: bilionów
