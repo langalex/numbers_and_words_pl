@@ -26,13 +26,17 @@ to_words:
   thousands:
     1000: tysiąc
     1001: tysiąc jeden
-    2000: dwa tysiące
-    4000: cztery tysiące
-    5000: pięć tysięcy
-    11000: jedenaście tysięcy
-    21000: dwadzieścia jeden tysięcy
-    999000: dziewięćset dziewięćdziesiąt dziewięć tysięcy
-    999999: dziewięćset dziewięćdziesiąt dziewięć tysięcy dziewięćset dziewięćdziesiąt dziewięć
+    2000: dwa tys.
+    4000: cztery tys.
+    5000: pięć tys.
+    11000: jedenaście tys.
+    21000: dwadzieścia jeden tys.
+    999000: dziewięćset dziewięćdziesiąt dziewięć tys.
+    999999: dziewięćset dziewięćdziesiąt dziewięć tys. dziewięćset dziewięćdziesiąt dziewięć
+    3579: trzy tys. pięćset siedemdziesiąt dziewięć
+    119003: sto dziewiętnaście tys. trzy
+    357009: trzysta pięćdziesiąt siedem tys. dziewięć
+    43898: czterdzieści trzy tys. osiemset dziewięćdziesiąt osiem
   # millionens:
   #   1000000: jeden milion
   #   2000000: dwa miliony

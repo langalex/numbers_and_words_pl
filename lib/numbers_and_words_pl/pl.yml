@@ -5,8 +5,8 @@ numbers:
   hundreds: [sto, dwieście, trzysta, czterysta, pięćset, sześćset, siedemset, osiemset, dziewięćset]
   thousands:
     one: tysiąc
-    few: tysiące
-    many: tysięcy
+    few: tys. #iące
+    many: tys. #ięcy
   millions:
     one: milion
     few: miliony
