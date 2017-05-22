@@ -19,7 +19,7 @@ module NumbersAndWordsPl
         thousands = integer.to_s[0..-4].to_i
         one_few_many = thousands < 5 ? (thousands == 1 ? 'one' : 'few') : 'many'
         rest = integer.to_s[-3..-1].to_i
-        "#{to_words_pl thousands if thousands > 1} #{PL_NUMBERS['thousands'][one_few_many]} #{to_words_pl rest if rest > 0}".strip
+        "#{to_words_pl thousands} #{PL_NUMBERS['thousands'][one_few_many]} #{to_words_pl rest if rest > 0}".strip
       else
         fail "number #{integer} not supported"
       end

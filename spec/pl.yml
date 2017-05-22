@@ -24,8 +24,8 @@ to_words:
     990: dziewięćset dziewięćdziesiąt
     999: dziewięćset dziewięćdziesiąt dziewięć
   thousands:
-    1000: tysiąc
-    1001: tysiąc jeden
+    1000: jeden tysiąc
+    1001: jeden tysiąc jeden
     2000: dwa tys.
     4000: cztery tys.
     5000: pięć tys.
