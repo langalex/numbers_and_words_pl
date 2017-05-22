@@ -17,11 +17,18 @@ module NumbersAndWordsPl
         "#{PL_NUMBERS['hundreds'][hundreds]} #{to_words_pl rest if rest > 0}".strip
       when 1_000..999_999
         thousands = integer.to_s[0..-4].to_i
-        one_few_many = thousands < 5 ? (thousands == 1 ? 'one' : 'few') : 'many'
+        one_few_many = case thousands
+                       when 1
+                         'one'
+                       when 2..4
+                         'few'
+                       else
+                         'many'
+                       end
         rest = integer.to_s[-3..-1].to_i
         "#{to_words_pl thousands} #{PL_NUMBERS['thousands'][one_few_many]} #{to_words_pl rest if rest > 0}".strip
       else
-        fail "number #{integer} not supported"
+        raise "number #{integer} not supported"
       end
     end
   end
